@@ -66,20 +66,17 @@ INSERT into test01.tweets(userid, creation_date, message) values ('you', toUnixT
 indices
 # pas d'index autre que l'exemple kibana
 
-# create index with autodiscovery excepted for TimeUUID
+# create index with autodiscovery excepted for PK
 curl -XPUT -H'Content-Type: application/json' "http://localhost:9200/test01/" -d'{
   "mappings" : {
     "tweets" : {
+        "discover" : "^(?!(creation_date|userid)).*",
         "properties" : {
           "creation_date" : {
             "type" : "date",
             "cql_collection" : "singleton",
             "cql_type" : "timestamp",
             "cql_primary_key_order" : 1
-          },
-          "message" : {
-            "type" : "keyword",
-            "cql_collection" : "singleton"
           },
           "userid" : {
             "type" : "keyword",
