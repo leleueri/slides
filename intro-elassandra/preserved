@@ -1,0 +1,18 @@
+
+## Multi Master
+
+<table>
+    <tr>
+        <td scope="col"><img  style="border: 0;" data-src="./img/multimaster.png"/></td>
+        <td scope="col"><small>
+            <ul>
+                <li>Usually used for Multi DC</li>
+                <li>Better Availability than Master/Slave</li>
+                <li>May have conflicts</li>
+                <li>Maybe complex according to masters topology</li>
+            </ul></small>
+        </td>
+    </tr>
+</table>
+
+--
