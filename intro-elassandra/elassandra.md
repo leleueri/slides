@@ -58,7 +58,7 @@ title: "Elassandra"
 
 --
 
-## Active/Passive
+## Master/Slave
 
 <table>
     <tr>
@@ -92,7 +92,28 @@ title: "Elassandra"
 
 --
 
-## Active/Active
+## Multi-Master
+
+<table>
+    <tr>
+        <td scope="col"><img  style="border: 0;" data-src="./img/multimaster.png" /></td>
+        <td scope="col"><small>
+            <ul>
+            <li> Master/Slave with Better availability</li>
+            <li> But :
+                <ul>
+                    <li>May be complex according to topology</li>
+                    <li>May have conflicts</li> 
+                </ul>
+            </li>
+            </ul></small>
+        </td>
+    </tr>
+</table>
+
+--
+
+## Masterless
 
 <table>
     <tr>
@@ -101,7 +122,7 @@ title: "Elassandra"
             <ul>
                 <li>R/W High Availability (No SPOF)</li>
                 <li>App developers responsible of consistency</li>
-                <li>Anti-entropy/read repair</li>
+                <li>Anti-entropy/Synchro</li>
                 <li>Conflicts : Last Write Win</li>
             </ul></small>
         </td>
