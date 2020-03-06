@@ -48,16 +48,6 @@ title: "Elassandra"
 
 --
 
-## Models
-
-* Active / Passive Replication
-  * Single node accepts writes (Master)
-  * Replicas (Slaves) updated by the Master 
-* Active / Active Replication
-  * All replicas accept writes
-
---
-
 ## Master/Slave
 
 <table>
