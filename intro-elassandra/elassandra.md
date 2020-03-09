@@ -3,11 +3,10 @@ theme : "sky"
 transition: "slide"
 highlightTheme: "monokai"
 mouseWheel: "true"
-logoImg: "img/logo-strapdata.png"
+logoImg: ""
 slideNumber: false
 title: "Elassandra"
 # parallaxBackgroundImage: ''
-#
 ---
 
 # Elassandra
@@ -306,4 +305,3 @@ cassandra@cqlsh> SELECT * FROM twitter.tweet WHERE
 <small> [@leleueri](https://twitter.com/leleueri) </small>
 <br />
 <small>http://strapdata.com/contact/</small>
-
