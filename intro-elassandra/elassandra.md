@@ -19,7 +19,6 @@ title: "Elassandra"
 ## $ Whoami
 
 * Eric Leleu
-* Dev @ Strapdata
 * @leleueri
 
 ---
@@ -262,6 +261,17 @@ cassandra@cqlsh> SELECT * FROM twitter.tweet WHERE
 
 --
 
+### Ecosystem
+
+* Compatible with Elasticsearch stack
+  * Kibana
+  * Logstash
+* Compatible with Cassandra environment
+  * Apache Spark
+  * Cassandra Reaper
+
+--
+
 ## Elassandra : Summary
 
 | Requirements         |     |
@@ -271,12 +281,6 @@ cassandra@cqlsh> SELECT * FROM twitter.tweet WHERE
 | Multi DC             | +++ |
 | Searchability        | +++ |
 | Analyze & Processing | +++ |
-
---
-
-### Ecosystem
-
-<img  style="border: 0;" data-src="./img/eco-system.png" />
 
 --
 
@@ -290,7 +294,6 @@ cassandra@cqlsh> SELECT * FROM twitter.tweet WHERE
 * Join Queries
 * JMX Support
 * Backup & Restore
-* Kubernetes Operator
 
 ---
 
@@ -302,5 +305,5 @@ cassandra@cqlsh> SELECT * FROM twitter.tweet WHERE
 
 <small> [@leleueri](https://twitter.com/leleueri) </small>
 <br />
-<small> eric@strapdata.com </small>
+<small>http://strapdata.com/contact/</small>
 
